@@ -1,0 +1,11 @@
+# 依赖与缓存（上传 GitHub 时不要带）
+node_modules/
+.npmcache/
+
+# 打包产物（npm run 一下就能重新生成）
+dist/
+
+# 系统垃圾
+Thumbs.db
+.DS_Store
+*.log
